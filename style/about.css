@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bga{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.team{
+    font-size: 35px;
+    text-align: center
+}
+
+.text{
+    text-align: center;
+}
+
+.member-section{
+    background: white;
+    
+}
+.member-title h1{
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    position: relative;
+}
+.member-cards{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.member-card{
+    background-color: rgb(241, 237, 237);
+    border-radius: 50px;
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.2);
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+}
+.member-image img{
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}   
+.member-detail h3{
+    color: black;
+    font-size: 30px;
+    margin:15px 0px;
+}
+.member-detail p{
+    color: black;
+    font-size: 18px;
+}
+
+@media (max-width: 1130px){
+    .member-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .member-card{
+        width: 85%;
+        margin: 25px auto;
+    }
+}
+
+@media (max-width: 1290px ) {
+    .bga{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+}

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* root values */
+:root{
+    --container-color: #1a1e21;
+    --second-color: rgb(121, 65, 42);
+    --text-color: #172317;
+    --bg-color: #fff;
+}
+
+::selection{
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+/*-----------------------------------------------*/
+
+/*-------------------- HOME --------------------*/
+
+.home{
+    width: 100%;
+    min-height: 440px;
+    background-size: 40% 150%;
+    background-color: #5f4a39;
+    display: grid;;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text{
+    color: var(--bg-color);
+    text-align: center;
+}
+
+.home-title{
+    font-size: 3.5rem;
+}
+/*-------------------------------------------------*/
+
+/*------------------- PICTURES ------------------*/
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--------------------------------------------*/
+
+/*--------------- BLUEBERRY ------------------*/
+.basta1{
+    text-align: center;
+    margin: 0px;
+    font-size: 45px;
+    color: var(--second-color);
+}
+.basta{
+    text-align: justify;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+.berry1{
+    text-align: left;
+    font-size: 17px;
+    border: 10px solid rgb(189, 163, 124);
+    background-color: rgb(78, 77, 77);
+    color: #fff;
+    padding: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.basta2{
+    text-align: center;
+    font-style: italic;
+}
+hr.line{
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 10px solid rgb(119, 106, 79);
+    border-radius: 5px;
+}
+
+
+/*------------------ FOOTER ------------------*/
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    margin-top: 3rem;
+    background: #111;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.footer-container .sec{
+    margin-right: 150px;
+}
+
+.footer-container h2{
+    position: relative;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-container h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: white;
+}
+
+footer p{
+    color: #fff;
+}
+
+.quicklinks ul li{
+    list-style: none;
+}
+
+.quicklinks ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: .3s;
+}
+
+.quicklinks ul li a:hover{
+    color: #fff;
+}
+
+.footer-container .contactBx{
+    width: calc(0% -10px);
+    margin-right: 0 !important;
+}
+
+.contactBx .info{
+    position: relative;
+}
+
+.contactBx .info li{
+    display: flex !important;
+    margin-bottom: 16px;
+}
+
+.contactBx .info li span:nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contactBx .info li span{
+    color: #999;
+}
+
+.contactBx .info li a{
+    color: #999;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.contactBx .info li a:hover{
+    color: #fff;
+}
+
+/*----------------------------------------------*/
