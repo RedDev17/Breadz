@@ -156,7 +156,7 @@ nav #icon{
     }
 }
 .bgh{
-    background: url(/background/index.jpg)no-repeat center center fixed;
+    background: url(../background/index.jpg)no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
