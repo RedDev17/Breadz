@@ -54,12 +54,19 @@ nav{
 }
 a.shop{
     font-size: 30px;
-    background: red;
+    background: #885607;
     overflow: hidden;
     color: white;
     border-radius: 15px;
     text-decoration: none;
     
+}
+a.shop:hover{
+    background: #a36f3a;
+}
+
+a.shop:active{
+    background:yellow;
 }
 
 div.logo{
@@ -163,15 +170,4 @@ nav #icon{
     width: 100%;
     height: 100vh;
     
-}
-
-.bga{
-    background: #5f4a39;
-    height: calc(100vh - 80px);
-}
-
-.bgc{
-    background: url(contactbg.jpg)no-repeat;
-    background-size: cover;
-    height: calc(143vh - 80px);
 }
