@@ -36,7 +36,7 @@ nav{
 }
 .box{
     margin: auto;
-    background-color: #654321;
+    background-color: black;
     width: 400px;
     height: 350px;
     text-align: center;
@@ -54,7 +54,7 @@ nav{
 }
 a.shop{
     font-size: 30px;
-    background: #885607;
+    background: #654321;
     overflow: hidden;
     color: white;
     border-radius: 15px;
